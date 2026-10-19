@@ -2,22 +2,52 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2306b6d4'><path d='M12 2L1 7l11 5 9-4.09V17h2V7L12 2zm-8.82 9.25L12 15.34l7.82-4.09V15L12 19.5 3.18 15v-3.75z'/></svg>" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%236366F1'><path d='M12 2L1 7l11 5 9-4.09V17h2V7L12 2zm-8.82 9.25L12 15.34l7.82-4.09V15L12 19.5 3.18 15v-3.75z'/></svg>" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="SkillForge provides practical technology courses, interactive quizzes, student progress tracking, and monetization tools for independent educators." />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://skillforge-learning-platform-sepia.vercel.app/" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="SkillForge — Online Courses & Creator Tutor Studio" />
+    <meta property="og:description" content="Master modern software engineering, AI engineering, and system design with hands-on lesson video modules and verifiable quizzes." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://skillforge-learning-platform-sepia.vercel.app/" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-    <title>SkillForge | Next-Gen Online Course Platform & Tutor Studio</title>
-    <style>
-      * {
-        font-family: 'Plus Jakarta Sans', sans-serif;
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    </noscript>
+
+    <title>SkillForge — Online Courses, Quizzes & Creator Tutor Studio</title>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Course",
+      "name": "Full-Stack System Architecture & Cloud Native Engineering",
+      "description": "Comprehensive engineering curriculum covering high-concurrency architectures, microservices, and modern frontend engines.",
+      "provider": {
+        "@type": "Organization",
+        "name": "SkillForge",
+        "sameAs": "https://skillforge-learning-platform-sepia.vercel.app/"
       }
-      .font-display {
-        font-family: 'Space Grotesk', sans-serif;
+    }
+    </script>
+
+    <style>
+      body {
+        font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      }
+      h1, h2, h3, h4, .font-display {
+        font-family: 'Space Grotesk', 'Inter', system-ui, sans-serif;
       }
     </style>
   </head>
-  <body class="bg-slate-950 text-slate-100">
+  <body class="bg-[#0B0F19] text-slate-100 antialiased selection:bg-indigo-500 selection:text-white">
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>

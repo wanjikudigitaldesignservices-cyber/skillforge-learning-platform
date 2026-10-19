@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://skillforge-learning-platform-sepia.vercel.app/sitemap.xml
